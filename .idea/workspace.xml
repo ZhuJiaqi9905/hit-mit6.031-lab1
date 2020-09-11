@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0f6b6a4-df56-43ac-a3ed-1164983a5b28" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/P3/FriendshipGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/P3/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/P3/FriendshipGraphTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/fundement/P1/MagicSquare.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fundement/P1/MagicSquare.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +14,20 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -23,10 +39,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="git@github.com:ZhuJiaqi9905/hit-mit6.031-lab1.git" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1h2cSgW5UJzbB4maS4YW19w5Uxk" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -50,7 +76,20 @@
       <recent name="D:\Code\2_Java\8_SoftwareConstruct\fundement\src\P1\txt" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TurtleSoupTest.convexHullTest">
+  <component name="RunManager" selected="Application.FriendshipGraph">
+    <configuration name="FriendshipGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P3.FriendshipGraph" />
+      <module name="fundement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="P3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TurtleSoup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="P2.turtle.TurtleSoup" />
       <module name="fundement" />
@@ -64,17 +103,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TurtleSoupTest.calculateBearingToPointTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FriendshipGraphTest.testFriendshipGraph" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="fundement" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="P2.turtle.*" />
+          <option name="PATTERN" value="test.P3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="P2.turtle" />
-      <option name="MAIN_CLASS_NAME" value="P2.turtle.TurtleSoupTest" />
-      <option name="METHOD_NAME" value="calculateBearingToPointTest" />
+      <option name="PACKAGE_NAME" value="test.P3" />
+      <option name="MAIN_CLASS_NAME" value="test.P3.FriendshipGraphTest" />
+      <option name="METHOD_NAME" value="testFriendshipGraph" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -112,29 +151,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TurtleSoupTest.testAssertionsEnabled" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="fundement" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="P2.turtle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="P2.turtle" />
-      <option name="MAIN_CLASS_NAME" value="P2.turtle.TurtleSoupTest" />
-      <option name="METHOD_NAME" value="testAssertionsEnabled" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FriendshipGraph" />
+        <item itemvalue="JUnit.FriendshipGraphTest.testFriendshipGraph" />
         <item itemvalue="JUnit.TurtleSoupTest.convexHullTest" />
         <item itemvalue="Application.TurtleSoup" />
         <item itemvalue="JUnit.TurtleSoupTest.calculateBearingsTest" />
-        <item itemvalue="JUnit.TurtleSoupTest.calculateBearingToPointTest" />
-        <item itemvalue="JUnit.TurtleSoupTest.testAssertionsEnabled" />
       </list>
     </recent_temporary>
   </component>
@@ -150,6 +173,7 @@
       <updated>1599212628456</updated>
       <workItem from="1599212630254" duration="5280000" />
       <workItem from="1599374223888" duration="7838000" />
+      <workItem from="1599792295201" duration="2927000" />
     </task>
     <task id="LOCAL-00001" summary="P2 finish">
       <created>1599381915194</created>
@@ -169,7 +193,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -180,30 +206,34 @@
     <option name="LAST_COMMIT_MESSAGE" value="P2 finish" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="199" y="0" key="CommitChangelistDialog2" timestamp="1599381913425">
+    <state x="372" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1599794134918">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="199" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1599381913425" />
+    <state x="372" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1599794134918" />
+    <state x="199" y="0" key="CommitChangelistDialog2" timestamp="1599795307581">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="199" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1599795307581" />
     <state width="470" height="438" key="DebuggerActiveHint" timestamp="1599216269270">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="470" height="438" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1599216269270" />
-    <state width="1239" height="9" key="GridCell.Tab.0.bottom" timestamp="1599382076896">
+    <state width="1239" height="104" key="GridCell.Tab.0.bottom" timestamp="1599795252045">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1239" height="9" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1599382076896" />
-    <state width="1239" height="9" key="GridCell.Tab.0.center" timestamp="1599382076895">
+    <state width="1239" height="104" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1599795252045" />
+    <state width="1239" height="104" key="GridCell.Tab.0.center" timestamp="1599795252045">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1239" height="9" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1599382076895" />
-    <state width="1239" height="9" key="GridCell.Tab.0.left" timestamp="1599382076895">
+    <state width="1239" height="104" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1599795252045" />
+    <state width="1239" height="104" key="GridCell.Tab.0.left" timestamp="1599795252045">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1239" height="9" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1599382076895" />
-    <state width="1239" height="9" key="GridCell.Tab.0.right" timestamp="1599382076896">
+    <state width="1239" height="104" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1599795252045" />
+    <state width="1239" height="104" key="GridCell.Tab.0.right" timestamp="1599795252045">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1239" height="9" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1599382076896" />
+    <state width="1239" height="104" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1599795252045" />
     <state width="1239" height="195" key="GridCell.Tab.1.bottom" timestamp="1599218002116">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -220,10 +250,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1239" height="195" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1599218002116" />
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1599374360669">
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1599792329442">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1599374360669" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1599792329442" />
     <state x="288" y="244" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1599374990084">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
