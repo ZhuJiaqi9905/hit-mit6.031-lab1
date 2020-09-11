@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0f6b6a4-df56-43ac-a3ed-1164983a5b28" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/P3/FriendshipGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P3/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/P3/FriendshipGraphTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fundement.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lab1.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +77,7 @@
   <component name="RunManager" selected="Application.FriendshipGraph">
     <configuration name="FriendshipGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="P3.FriendshipGraph" />
-      <module name="fundement" />
+      <module name="lab1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="P3.*" />
@@ -92,7 +90,7 @@
     </configuration>
     <configuration name="TurtleSoup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="P2.turtle.TurtleSoup" />
-      <module name="fundement" />
+      <module name="lab1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="P2.turtle.*" />
@@ -104,7 +102,7 @@
       </method>
     </configuration>
     <configuration name="FriendshipGraphTest.testFriendshipGraph" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="fundement" />
+      <module name="lab1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="test.P3.*" />
@@ -120,7 +118,7 @@
       </method>
     </configuration>
     <configuration name="TurtleSoupTest.calculateBearingsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="fundement" />
+      <module name="lab1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="P2.turtle.*" />
@@ -136,7 +134,7 @@
       </method>
     </configuration>
     <configuration name="TurtleSoupTest.convexHullTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="fundement" />
+      <module name="lab1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="P2.turtle.*" />
